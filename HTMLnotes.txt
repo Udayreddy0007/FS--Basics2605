@@ -1,0 +1,281 @@
+FS- Basics
+
+ 
+ Date : 16/09/26
+
+   Overview 
+
+HTML--- Hypertext markup language 
+        it gives structure to a web page and display the content over a web page
+        
+    ex:  analogy of building a house 
+          plan / structure to build - rooms 
+
+CSS-- Cascading stylesheet 
+       ex: we need to color rooms to make it beautiful
+           color,backgroud, animations
+
+
+JS-- Java script 
+
+     ex: I want to add the electricity to turn on the bulb,fan 
+       
+     behaviour , applying business logic we gonna use JS
+
+Slack -- communication
+
+
+                                web development
+
+ 
+1. frontend - HTML , CSS, JS
+2. backend
+3. Database
+
+---> What is a web page ?
+     
+    Digital doc can be seen by using a browser
+
+ --> what is a browser ?
+     -- collection info related to a content
+-- > what is content ?
+    -- information
+
+--> what html does to a page
+   gives the structure to page
+--> what css does to a page
+  -- apply the style to a page
+ --> what js does to apage 
+   --add the behaviour to a page
+
+
+
+---HTML - Hypertext markup language not a programming language
+     
+           programming language ?
+           
+            to perform a task , certain steps of instruction
+             doesn't perform and logics if, if else, for   
+
+ --> on a browser every page is treated as a document 
+
+ --> HTML is a basic language to learn 
+ ---> HTML is platform independent  , it can be run on windows os , mac os , Linux os
+    --> Html allows us to write css and js (linking)
+
+    ---> web page created -- HTML + CSS + JS
+
+
+
+
+   --> Date: 17/9/26
+
+ --> HTML: Hypertext markup language
+ -- it gives the structure to a web page & it tell the browser how the content should be displayed
+  
+-- features : 
+       
+1. Basic structure and easy to understand
+2.light weight code
+3.it supports multimedia - image , video, audio
+4.it supports css
+5.it supports Js
+6.it is platform independent language
+
+Structure of the HTML :
+in html everything is treated as tags <>(angular brackets)
+open angular bracket / open tag <>
+closed angular bracket / close tag </>
+-- in html we have multiple tags
+-- HTML element - which gives a complete structure <> content</>
+-- HTML Attribute - a tag html element which as some information which is written inside the opening tag
+--     ex: <a href="">
+
+<!DOCTYPE HTML> -- giving instruction to a page / using HTML standards
+<html lang="en"> --- root element / entry to a house -- lang is a attribute en - language code/attribute value en- english
+<head> ------------ it stores the info about our web page which is not displayed on the main page
+  <meta charset ="UTF-8"> --- it setup encoding  (Unicode transition format) it interpret the text into the byte code(0,1)
+  <meta name ="viewport" content ="width=device-width" initial-scale=1.0> -- name ="viewport"-- the area of the page  content =-"width=device-width" -- auto set the width of the page
+                                                                              initial-scale=1.0 by default add the zoom in and zoom out
+  <title>Document</title> -- it will add the name to the browser tab
+</head> -- close 
+<body>  --- the content which is displayed on the main
+</body>
+</html> --- root ended here / exit from the house
+
+
+head tag -- 
+
+--its stores the meta data about our webpage
+-- we can write our title not the heading page it means the browser tag name
+-- it contains css references
+-- it stores/contains js references
+-- character encoding 
+-- view port and the default zoom is set inside the head tag
+
+---IDE - Integrated development environment
+ 
+  VS-- 	Visual studio code env
+
+installation: 
+
+open this website 
+            
+link : https://code.visualstudio.com/ 
+
+
+----> Date : 18/9/26
+
+
+ ---> creating our first web page
+
+ ---> The code which written inthe html language it should be stored with .html extention
+         
+          -->  boilerplate code instead of writting the entire structure we use (!)
+         
+          ---   Syntax : comments
+                          <!-- -->
+
+  --->   Tags in HTML
+
+     -- heading tag h1 to h6
+               
+               <h1>Welcome to our first webpage</h1>
+                <!--h1 is called as heading which adds heading to our page-->
+                <h2>Welcome to our first webpage</h2>
+                <h3>Welcome to our first webpage</h3>
+                <h4>Welcome to our first webpage</h4>
+                <h5>Welcome to our first webpage</h5>
+                <h6>Welcome to our first webpage</h6>
+     
+     --- Paragraph (p) -- it will add the Paragraph on our page 
+
+          -- <p>content</p>
+
+    --- image tag (<img src="address of image">)-- which is used to display the images over a page
+        
+        src -- HTML Attribute where we gonna paste the image address
+        alt -- HTML attribute where we write a name of the image which is displayed when the image is not loaded
+
+    --  anchor tag (<a href="www.google.com">) -- help us to create a hyperlink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
