@@ -159,7 +159,45 @@ link : https://code.visualstudio.com/
 
     --  anchor tag (<a href="www.google.com">) -- help us to create a hyperlink
 
+--> Date: 22/09/26
 
+--- Created a  hyperlink and aaded a image clickable
+<a href="paste the page link" > <img src="image address" alt="img name"></a>
+ 
+  ---- HTML text Tags
+   <b></b>-- for bold text
+   <i></i>-- for italic text
+   <em></em>-- for italic text
+   <strong></strong> --bold
+   <mark></mark>-- yellow colored highlight
+   <sub></sub>-- for chemical recation
+   <sup></sup> -- for mathematic formulas
+   <br>-- tells the browser move to the next line
+   <ins></ins> -- it adds the underline
+   <u></u>-- underline
+   <del></del> -- delete content tag add the line over the text
+
+
+
+---> Creating a list 
+
+--- there are two ways of creation 
+  
+  1.Ordered list(<ol></ol>)-- when the sequence is matters to display the list
+     <li></li>-- list items basically in this we define the items
+     <ol>
+
+      <li>Apple</li>
+      <li>Watermelon</li>
+        </ol>
+
+  2.Unordered list(<ul></ul>)-- when the squence doesnt matters
+  <li></li>-- to dispaly the list content/ list items
+  <ul>
+ <li> </li>
+
+
+  </ul>
 
 
 
