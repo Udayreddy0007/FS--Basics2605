@@ -199,7 +199,78 @@ link : https://code.visualstudio.com/
 
   </ul>
 
+ ---> Date: 23/9/26
 
+  ---> Nested lists
+
+  1.Nested lists ol
+
+    ol(ordered list)structure: ordered list sub list is unordered
+                    <ol>
+                    <li>Java
+                    <ul>
+                    <li>Core java</li>
+                    <li> advance java </li>
+                    </ul><</li>
+                    </ol>
+
+      ul(unordered list) Structure : Unordered list and sub list is unordered
+                          
+
+                  <ul>
+                    <li>Java
+                    <ul>
+                    <li>Core java</li>
+                    <li> advance java </li>
+                    </ul><</li>
+                    </ul>
+    
+    ---> Description tags --> To display the related ingo about an item
+            
+            there are 3 tags 
+            
+            1.Description list(dl) : -- it gives the structure to the description 
+
+             syntax: <dl></dl> 
+            
+            2. Description term :  it gives a term / a name / question for an item
+
+            syntax : <dl>
+                     <dt></dt>
+                    </dl>
+
+            3. Description details : to give the information about the term
+
+            syntax:
+                     <dl>
+                     <dt></dt>
+                     <dd></dd>
+                     </dl>
+
+      Note :
+      -- a term can contains multipled tags
+      -- a dd tag can consists of multiple term tags   
+
+  --> Favicon tag -- basically an icon that is displayed over a browser tab 
+                      we have to define inside html head
+
+                 syntax :
+                     
+                          <link rel="icon" href="images/youtube.png" type="images/youtube" >                 
+
+    --- 16  x 16 pixels
+    --- 32 x 32 
+    --- 64 x 64 
+    --- 180 x 180 
+
+--> Table creation using html --
+   
+    -- <table>
+       </table>  -- it gives / tells the browser giving a table structure
+
+    --<th>column heading</th>-- it adds the column headings
+    --<tr></tr> -- to create a row
+     -- <td></td> -- to add the data to the table
 
 
 
