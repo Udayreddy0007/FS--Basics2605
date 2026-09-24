@@ -272,6 +272,47 @@ link : https://code.visualstudio.com/
     --<tr></tr> -- to create a row
      -- <td></td> -- to add the data to the table
 
+----> Date: 24-9-26
+
+--- created a basic table and we added structure by using three tags
+    <thead><thead>-- help us to store  the headings in a Structure
+    <tbody></tbody> -- help us to store the data of the table in a Structure
+    <tfoot></tfoot> --- help us to display the total count ,marks 
+
+
+--- colspan -- it adds the horizental cell to our column
+
+     ex ; <th colspan="2" > 
+
+
+--- rowspan -- it adds the vertical cells inside the row
+   
+   ex : <td rowspan ="2">
+
+
+   ---> creation of form 
+
+    --<form></form> -- gives the structure to the form
+    -- label / name
+    <label><label> -- is used to diaplay the name before the field
+    <input type="">-- it define the type of data that should be stored inside a label
+    -- text -- it allow thew end user to write only single line text
+    -- password -- allow the user to enter the password and the format is 
+      hide the character
+    -- radio -- to give multiple options
+    -- checkbox --- yes / no
+  --> Button -- to create a button on your form
+  <button type ="button">content</button> -- general Button
+  <button type="submit"></button> -- submit button
+  <button type="reset"></button>-- reset Button
+     -- file--- allows the user to the files
+     -- color--- allow the user to select the color
+     --text-area-- multiple line
+     -- number -- allow the user to add the number
+     -- date -- allow the user to select the date
+     -- email -- allow the user to write the emails
+     --- required 
+
 
 
 
