@@ -6,21 +6,46 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Student Registration Form</h1>
     <form>
         <label for="name">Student name</label>
         <input  id="name" type="text" placeholder="enter your name"><br>
-        <label>Email</label>
-        <input type="email"><br>
-        <label>Phone Number</label>
-        <input type="tel"><br>
-        <label>Gender</label>
-        <input type="radio">
-        <label>Male</label>
-        <input type="radio">
-        <label>female</label>
-        <input type="radio">
-        <label>others</label><br>
+        <label for="email">Email</label>
+        <input id="email" type="email"><br>
+        <label for ="number">Phone Number</label>
+        <input id ="number" type="tel"><br>
+        <label for="Gender">Gender</label>
+     
+        <input id="Male" type="radio" name="Gender" value="male">
+        <label for="Male">Male</label>
+        <input  id ="female" name="Gender" value="female" type="radio">
+        <label for="female">female</label>
+        <input type="radio" id="others" name="Gender" value="others">
+        <label for="others">others</label><br>
+        
+        
+
+        <br><br>
+        <label>Feedback</label>
+        <input type="text-area" row="5" column="20">|
+        
+        <br><br>
+
+        <label>Select The Course</label>
+        <select>
+            <option>SN</option>
+            <option>Salesforce</option>
+            <option>FullStack-Python</option>
+            <option>FullStack-Java</option>
+        </select>
+     <br><br>
+        <label>UploadDoc</label>
+        <input type="file">
+        <br><br>
         <button type="submit">submit</button>
+        
+
     </form>
     
 </body>

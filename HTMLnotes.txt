@@ -313,6 +313,26 @@ link : https://code.visualstudio.com/
      -- email -- allow the user to write the emails
      --- required 
 
+---> Date : 25/9/26
+
+----for , id -- HTML form control , label and input control
+
+ -- for = it tells the user/browser this label belong to the name(label name)  
+
+ -- id = it tells the browser to connect with label with same name 
+      id value must be same as for value
+
+      for , id will tells the user this label belongs to this input
+
+  -- Text- area attributes -- row , column 
+     --> Row define the no of line that a user can display or write in that area
+     --> Column defines the number of words that a user can entery in the field
+
+  --> Select and options used to create the dropdown field on ur form
+      <select> --- it is a container stores the options / list of choices
+      <option></option> -- it is used to create and add the options to the container
+      <option></option>
+      </select>
 
 
 
