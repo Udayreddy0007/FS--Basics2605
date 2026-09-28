@@ -335,7 +335,44 @@ link : https://code.visualstudio.com/
       </select>
 
 
+  ---> Date : 28/9/26 
 
+   -->Reset button
+    --> Default button
+    ---> Submit button
+
+    ---> Container tags -- div , span
+
+    ----> div tag --- it creates a continers mostly we gonna use references for CSS while apply the style
+
+                    <div> 
+
+                               /// define html elements h1 , p , em , a , img  , ol,ul
+      
+                    </div>
+
+ ---> Span tag -- single line container 
+
+                  <span >
+                  <h1></h1>
+                  </span>
+
+
+  ----> HTML Semantic tags  -- improve the readablility
+
+    <Header></Header> --- Heading defined inside this header 
+
+    <main></main> -- the content is wriiten inside this main tag only similar how the browser is 
+          
+           displaying the content using the body
+    <nav></nav>--- logo , search bar buttons , dropdowns
+    <Section></Sections> -- dividing the contenet on  our web page
+    <article></article> -- to display the brief info about a particular topic
+    <Footer></Footer>- mostly we can display our web site contact details, term and conditions 
+
+
+      
+                 
 
 
 
