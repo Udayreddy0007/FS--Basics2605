@@ -1,0 +1,17 @@
+CSS :  Cascading stylesheet
+
+-- To apply style on our webpage
+-- properties
+-- measurements
+-- Selectors
+{
+
+    
+}
+
+--In line css , internal css , external css
+
+--> Inline CSS -- we apply styles inside a html element  and open tags
+ 
+  syntax : 
+   <p style="color:red "></p>

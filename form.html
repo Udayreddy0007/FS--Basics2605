@@ -19,7 +19,7 @@
         ="Gender">Gender</label>
      
         <input id="Male" type="radio" name="Gender" value="male">
-        <label for="Male">Male</label>
+        <label for="female">Male</label>
         <input  id ="female" name="Gender" value="female" type="radio">
         <label for="female">female</label>
         <input type="radio" id="others" name="Gender" value="others">
@@ -28,8 +28,8 @@
         
 
         <br><br>
-        <label>Feedback</label>
-        <input type="text-area" row="5" column="20">|
+        <label aria-describedby="provide your feedback on the particular course">Feedback</label>
+        <input type="text-area" row="2" column="50">|
         
         <br><br>
 
@@ -45,8 +45,17 @@
         <input type="file">
         <br><br>
         <button type="submit">submit</button>
+        <p role="alert">The form has been submitted</p>
         <button type="default">button</button>
         <button type ="reset">Reset</button>
+        <button aria-label="Cancel button">X</button>
+        <br>
+        <label for="pwdhlp">Password</label>
+        <input id="pwdhlp"type="password">
+        <p aria-labelledby="pwdhlp"></p>
+        <br>
+        <p hidden="ignore">★</p>
+
         
 
     </form>

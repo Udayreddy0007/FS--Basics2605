@@ -371,6 +371,71 @@ link : https://code.visualstudio.com/
     <Footer></Footer>- mostly we can display our web site contact details, term and conditions 
 
 
+
+
+
+    ---> Date : ARIA Attribute -- accessable rich internet application
+
+       ---> Increasing the readablility
+       --> Increase accessability
+       ---> more enangement 
+
+       ---> Goal -- make a website so that everyone can easily access and understand
+
+       --> ARIA label - when the text isnt clear visible we gonna use this attribute and add ameaning
+       ---> ARIA labelby --the element id of one html element we gonna take it as another element label name
+       ---> ARIA describeby -- to store descriptive info of a 
+       --> Hidden 
+        --> role
+
+
+
+        ---> Dont use place holder for storing the deatils of the label instead use it for 
+              displaying hints ex : uday 
+
+
+  ---> Date : 30/9/26
+
+  Form Accessablitiy: 
+  for , id , name
+
+
+
+  ---For,id - it belongs to the label name and the input name and the names shoul be name 
+     
+      connect the  label with input
+
+  -- name - we gonna give a name for group of choices 
+
+--> Heading accessability :
+   we need to follow the hierarchy
+
+   h1 ----|
+          h2
+          h3
+
+  h2 ----|
+         h3
+         h4
+
+ h3 ---|
+       h4
+       h5
+
+
+---> i frame ---> 
+            
+            when the user wants to add an image or video decalre the elements inside the i frame
+            the  user can add the properties indie the i frame for that specific image or video
+            we have to decalre 
+
+  syntax :
+      <iframe>
+      <img src ="">
+
+      </iframe>
+
+
       
                  
 
