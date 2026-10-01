@@ -15,3 +15,23 @@ CSS :  Cascading stylesheet
  
   syntax : 
    <p style="color:red "></p>
+
+  --> Date : 1-10-26
+
+  -->Internal css - WE decalre the style inside the head element of HTML page 
+   syntax : 
+            <style>
+                       
+               elemnet name {
+                   property : property value;
+                }
+                
+
+            </style>
+
+    --> External CSS :  Here we are creating a separate file and linking the css file with html page 
+    by using link tag inside html page head tag
+
+    
+    syntax : <link rel="stylesheet" href="style.css" >
+    
