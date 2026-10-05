@@ -1,7 +1,16 @@
-h1{
-    color:yellow;
-    background-color: black;
-}
-body{
+
+/*body{
     background-color: aqua;
+}
+#id1{
+    color:red;
+    background-color: whitesmoke;
+}
+.container{
+    background-color: aliceblue;
+} */
+
+h1,p,body{
+    color:aquamarine;
+    background-color: Black;
 }

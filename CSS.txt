@@ -35,3 +35,52 @@ CSS :  Cascading stylesheet
     
     syntax : <link rel="stylesheet" href="style.css" >
     
+---> Date : 5/10/26
+
+--> Selectors : Givinga name to  an HTML element and applying the style on the particular 
+     elment by using that name
+
+     1. Element Selector : Applying the style by using element name 
+             
+             Syntax : 
+                            Html elementName{
+                                CssPropertyName : PropertyValue;
+                            }
+        
+     2. Id Selector : Applying the styles by using Id name 
+                       before that we need to give an id to an Element
+
+                       Syntax :  #UniqueIdName {
+
+                                    CssPropertyName : PropertyValue;
+
+                       }
+                                  
+     3. Class Selector : Applying the style on a group of html elements
+
+      Syntax :  .ClassName {
+
+                                    CssPropertyName : PropertyValue;
+
+                       }
+
+
+     4. Grouping selector / Group elements selector : 
+ 
+         if you want to apply the style on group of elements 
+
+         Syntax : 
+                  element1 , element2, element3 , element4{
+                        Cssproperityname : propertyValue;
+                  }
+    --->Note : To comment out the lines in css the syntax is 
+       /*    */
+        
+     5. Universal Selector
+     6. Child Selector
+     7. Decedent selector
+     8. Attribute selector
+
+
+
+
