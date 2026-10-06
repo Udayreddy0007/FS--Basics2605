@@ -76,11 +76,27 @@ CSS :  Cascading stylesheet
     --->Note : To comment out the lines in css the syntax is 
        /*    */
         
-     5. Universal Selector
-     6. Child Selector
-     7. Decedent selector
-     8. Attribute selector
+     5. Universal Selector 
+     6. Child Selector - (>)
+     7. Descendant selector
+     8. Attribute selector -- tomorrow
 
+
+--> Cascade :  Cascade is a mechanism  it tell which selector should wins , later selector only wins
+    when multiple selctors affects the same element
+   
+    Rules :  
+    1.check the position
+    2.see the Selectors
+
+    ex : 
+         p{
+            color:blue;
+         }
+        
+         .p{
+            color:purple;
+         }
 
 
 

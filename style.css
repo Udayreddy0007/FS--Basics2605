@@ -10,7 +10,37 @@
     background-color: aliceblue;
 } */
 
-h1,p,body{
+/* h1,p,body{
     color:aquamarine;
     background-color: Black;
+} */
+
+/* child selector */
+
+/* div > p{
+    color:violet;
 }
+
+div p{
+    color:purple;
+} */
+
+
+body{
+    background-color: black;
+}
+
+
+ p{
+   
+    color:purple;
+   
+ }
+ p{
+    color:bisque;
+
+ }
+ p{
+    color:red;
+ }
+ 
