@@ -1,46 +1,4 @@
-
-/*body{
-    background-color: aqua;
-}
-#id1{
-    color:red;
-    background-color: whitesmoke;
-}
-.container{
-    background-color: aliceblue;
-} */
-
-/* h1,p,body{
-    color:aquamarine;
-    background-color: Black;
-} */
-
-/* child selector */
-
-/* div > p{
-    color:violet;
-}
-
-div p{
-    color:purple;
-} */
-
-
 body{
-    background-color: black;
+    background-color:#9EE48F;
+    background-color: HEX;
 }
-
-
- p{
-   
-    color:purple;
-   
- }
- p{
-    color:bisque;
-
- }
- p{
-    color:red;
- }
- 

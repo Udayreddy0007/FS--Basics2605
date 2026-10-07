@@ -1,7 +1,6 @@
-
-
-
-
-input[type="text"] {
-    border: 2px solid blue;
+#id1,.id2,input[type="text"]{
+    border:2px solid red;
 }
+
+
+

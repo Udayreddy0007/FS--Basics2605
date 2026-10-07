@@ -99,4 +99,33 @@ CSS :  Cascading stylesheet
          }
 
 
+---> Date : 07/10/26
 
+
+--> Attribute selector : 
+              
+              input[attribute ="attribute value"]{
+                propertyName :  PropertyValue;
+              }
+
+    -->Specificity : 
+
+        Specificity is the weight that browsers use in the cascade algorithm to determine 
+        the CSS declaration that is the most relevant to an element, 
+        Not always the later wins every selector as some strength 
+
+     1.element selector (p) -- very Low (0,0,0) -- 0
+     2.attribute selector(input[attribute="attribute value"]) -- low(0,0,1) -- 10
+     3..Class selector(.p)--Low --(0,1,0)-10
+     4.#id selector(#p)--High(1,0,0)-100
+     5.inline css(style="Property")--VeryHigh(1,1,1)-1000
+     
+    
+
+    -->Color property : 
+    1 .Named Color value 
+    2.RGB(0,0,0)- 0 TO 255 -- Red , green , blue -- recomended
+    3.HEX(#rrggbb)-#ffffff - Recommended
+    4.HSL(Hue Saturation Lightness)-()
+    5.HSLA()
+    6.RGBA(0 to 1)
