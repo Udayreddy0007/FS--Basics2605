@@ -129,3 +129,46 @@ CSS :  Cascading stylesheet
     4.HSL(Hue Saturation Lightness)-()
     5.HSLA()
     6.RGBA(0 to 1)
+
+
+---> Inhert :  Aquring the properities from parent not from the child
+    
+    ex : 
+             body {
+         
+             }
+             child (different element inside the body){
+                inhert;
+             }
+
+  --> background property :
+       
+       -- Background color : It sets some background color to the elements
+
+              ex : 
+                        p{
+                            background-color:red;
+                        }
+     --- Background-image : it set a image on our web site in the background
+                           ultimately image is repeated by default in the x and y-axis
+
+           ex  : 
+                      body{
+                        background-image: url("path");
+                      }
+     ---Background-repeat : it avoid repeation we can use this Property
+       
+       --this property as multiple values
+         --no-repeat -- it avoid the repetation on the page
+         --repeat-x -- if you want to repeat the image in horizental line
+         --repeat-y -- if you want to repeat the image in Vertical line
+
+    -- Background-size : it will allow the user to set sizes
+        --cover
+        --contain
+        --auto
+    --Background-attachment : it will allow the user to fix the background image 
+
+    -- fixed
+    -- scroll
+    -- local

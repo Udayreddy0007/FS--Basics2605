@@ -1,4 +1,19 @@
 body{
-    background-color:#9EE48F;
-    background-color: HEX;
+    /*background-image: url("car\,png.jpg");
+    background-repeat:no-repeat;
+    /*background-size: cover; 
+    background-attachment:fixed;
+    background-color: rgb(244, 236, 236);
+    background-position: center; */
+    
+    background:url("car\,png.jpg") center  / cover fixed;
+}
+.container1{
+
+    color:rgb(15, 15, 15);
+
+}
+ h1{
+    background-color: inherit;
+    color:inherit;
 }
