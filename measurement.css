@@ -1,0 +1,24 @@
+.con1{
+    height: 100px;
+    width: 1000px;
+
+    border: 2px solid red;
+    background-color: yellow;
+}
+.con2{
+    height:100vh;
+    width:50vw;
+    border: 2px solid red;
+    background-color: yellow;
+}
+.con3{
+    height:100vmin;
+    border: 2px solid red;
+    background-color: yellow;
+}
+.con4{
+    height:150vmax;
+    width:100vmax;
+    border: 2px solid red;
+    background-color: yellow;
+}

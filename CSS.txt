@@ -172,3 +172,42 @@ CSS :  Cascading stylesheet
     -- fixed
     -- scroll
     -- local
+
+
+    ---> Date : 12 /10 / 26
+
+
+       --> Background shortand : in a single property we will be defining all the Background
+                                and the values must  and should this sequence while declaring 
+                                otherwise you wont get the image on your page
+
+        background:black url("car\,png.jpg") no-repeat center/ cover  fixed;
+                   : color brockground-image background-repeat background-position background-size background-attachment
+
+
+
+---> Measurments in CSS : 
+ 
+      ---> Absolute measurements - it as fixed values
+            
+            cm , m ,inc , % , px- 1/94th  part of inch
+          
+      ---> Non - Absolute Measurements -- it doent have any fixed values
+
+         vh , vw,vmin, vmax , rem ,em 
+
+         border , margin , padding , width, height
+
+
+
+
+
+
+
+
+
+
+
+
+
+
