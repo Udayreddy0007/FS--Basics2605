@@ -4,10 +4,10 @@ CSS :  Cascading stylesheet
 -- properties
 -- measurements
 -- Selectors
-{
+
 
     
-}
+
 
 --In line css , internal css , external css
 
@@ -197,6 +197,208 @@ CSS :  Cascading stylesheet
          vh , vw,vmin, vmax , rem ,em 
 
          border , margin , padding , width, height
+
+
+---> Date :  14/10/26
+
+
+---> Display property :
+
+       ----> CSS DISPLAY PROPERTY AND FONT PROPERTIES
+
+
+ ---> 1. CSS DISPLAY PROPERTY
+
+
+       The CSS display property specifies how an HTML element is displayed on a webpage and how it occupies space in the layout.
+       
+       The main display values are:
+       1. block
+       2. inline
+       3. inline-block
+       4. none
+
+
+--> DISPLAY: BLOCK
+
+
+       The display: block property makes an element behave like a block-level element.
+       
+       Characteristics:
+       - Starts on a new line.
+       - Occupies the available width by default.
+       - Supports width and height properties.
+       - Other block elements normally appear on the next line.
+    
+    
+    --> Common block-level elements:
+            div, p, h1, h2, section, article.
+
+
+--> DISPLAY: INLINE
+
+
+       The display: inline property makes an element behave like inline content.
+       
+       Characteristics:
+       - Does not start on a new line.
+       - Occupies only the space required by its content.
+       - Multiple inline elements can appear on the same line.
+       - Width and height do not normally affect ordinary inline elements.
+       - Horizontal padding and borders can be applied.
+
+
+
+    --> Common inline elements:
+          span, a, strong, em.
+
+
+---> DISPLAY: INLINE-BLOCK
+
+
+       The display: inline-block property combines the features of inline and block elements.
+       
+       Characteristics:
+       - Does not automatically start on a new line.
+       - Multiple elements can appear on the same line.
+       - Supports width and height properties.
+       - Supports padding, borders, and margins.
+       - Useful for buttons, navigation items, and small boxes.
+
+
+
+---> DISPLAY: NONE
+
+
+      The display: none property hides an element completely from the webpage layout.
+      
+      Characteristics:
+      - The element is not displayed.
+      - It does not occupy space in the layout.
+      - Other elements behave as though the element is absent.
+      - The element remains in the HTML document.
+
+
+ --> Display Vs Visibility
+
+     display: none;
+     The element is hidden and its layout space is removed.
+     
+     visibility: hidden;
+     The element is hidden, but its layout space is normally preserved.
+
+
+---> DIFFERENCE BETWEEN DISPLAY VALUES
+
+
+         BLOCK:
+         - Starts on a new line.
+         - Supports width and height.
+         - Occupies layout space.
+         
+         INLINE:
+         - Does not start on a new line.
+         - Width and height do not normally apply to ordinary inline elements.
+         - Occupies layout space.
+         
+         INLINE-BLOCK:
+         - Does not automatically start on a new line.
+         - Supports width and height.
+         - Occupies layout space.
+         
+         NONE:
+         - Element is not displayed.
+         - Does not occupy layout space.
+
+
+  --> 2. CSS FONT PROPERTIES
+
+
+          Font properties control the appearance of text on a webpage.
+          
+          Common font properties include:
+          1. font-family
+          2. font-size
+
+
+--->  FONT-FAMILY Property :
+
+
+      The font-family property specifies the typeface used to display text.
+      
+      Different fonts give text a different appearance.
+
+
+    ex : 
+         TimesNew Roman ,Courier New:
+        A monospace font in which characters generally occupy equal-width spaces.
+
+  ----> Generic font families:
+     
+        serif
+        sans-serif
+        monospace
+        cursive
+        fantasy
+
+   -->Important:
+    If a font name contains spaces, enclose it in quotation marks.
+
+
+
+
+--->  FONT-SIZE Property
+
+       
+       The font-size property specifies the size of text.
+       
+       Common units:
+       - px: pixels
+       - em: relative to the parent font size for font-size calculations
+       - rem: relative to the root element's font size
+       - %: percentage of the parent font size
+
+
+
+---> Rem and Em
+          
+        Explanation:
+        
+         -- Assume that The child element has a font size of 30px because:
+           1.5 x 20px = 30px.
+        
+         -- Assume that The heading has a font size of 32px because:
+           2 x 16px = 32px.
+
+
+    --> em:
+       Relative to the parent font size when calculating font-size.
+       
+    --> rem:
+       Relative to the root element's font size.
+       
+
+ Note : These properties are important for controlling webpage layout and improving text readability.
+
+     
+
+     ---> Date :  15/10/26 
+      
+       --->  Display : none vs Visibility : hidden
+
+        --- Dispaly : none is allowing some container2 element to  occupy the container 1
+             space
+
+        --- Visibility : hidden it's not allowing the other containers to occupy the other elements
+                  spaces
+
+
+
+ ----> NOTE : 
+ 
+     Created a  CSSBOX model floder refer that  folder for box model
+
+     
 
 
 
