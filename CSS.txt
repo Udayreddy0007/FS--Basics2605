@@ -398,6 +398,19 @@ CSS :  Cascading stylesheet
  
      Created a  CSSBOX model floder refer that  folder for box model
 
+
+  ---> Date : 16/10/26
+
+      -- Discussed CSS position property 
+         Float Property(for boxes)
+         Clear Property(for texts)
+         Text-decoration
+         Text-transform
+         Text-style
+
+    --> NOTE:  Created a properties folder inside that i have uploaded the notes 
+           as well as the code that we discussed in today's class please refer.....
+
      
 
 

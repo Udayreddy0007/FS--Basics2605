@@ -1,0 +1,121 @@
+
+--> Date : 16/10/26
+
+--> POSITION PROPERTY :
+
+      The position property in CSS is used to decide where an element should appear on a webpage. It controls the placement of an element and how it behaves when other elements are present or when the page is scrolled.
+      
+      Declaration:
+      
+      position: static;
+      position: relative;
+      position: absolute;
+      position: fixed;
+      position: sticky;
+
+--> Values:
+
+     Static: This is the default position of every HTML element. The element appears in its normal position in the webpage. The top, right, bottom and left properties do not affect its position.
+     
+     Relative: The element is positioned relative to its original position. It can be moved using the top, right, bottom and left properties. Its original space remains reserved in the page.
+     
+     Absolute: The element is removed from the normal document flow. It is positioned relative to its nearest positioned ancestor. If no positioned ancestor is available, it is positioned relative to the initial containing block.
+     
+     Fixed: The element is positioned relative to the viewport in normal circumstances. It stays in the same place on the screen while scrolling.
+     
+     Sticky: The element behaves like a relatively positioned element until the specified scrolling position is reached. After reaching that position, it sticks within its scrolling container, subject to the container's boundaries.
+
+--> TEXT DECORATION PROPERTY
+
+      The text-decoration property is used to add decorative lines to text. These lines can appear above the text, below the text or through the text.
+      
+      Declaration:
+      
+      text-decoration: none;
+      text-decoration: underline;
+      text-decoration: overline;
+      text-decoration: line-through;
+
+--> Values:
+
+    None: Removes the text decoration line.
+    
+    Underline: Adds a line below the text.
+    
+    Overline: Adds a line above the text.
+    
+    Line-through: Adds a line through the text.
+    
+    Additional text decoration properties:
+    
+    text-decoration-color: Specifies the color of the decoration line.
+    
+    text-decoration-style: Specifies the style of the decoration line, such as solid, double, dotted, dashed or wavy.
+    
+    text-decoration-thickness: Specifies the thickness of the decoration line.
+    
+    Note: Outline is not a value of text-decoration. The outline property draws a line around an element's outer edge and is separate from text decoration.
+
+--> TEXT TRANSFORM PROPERTY :
+
+      The text-transform property is used to change the capitalization of text displayed on a webpage. It changes the appearance of the text without changing the original text in the HTML.
+      
+      Declaration:
+      
+      text-transform: none;
+      text-transform: capitalize;
+      text-transform: uppercase;
+      text-transform: lowercase;
+
+--> Values:
+
+         None: Displays the text without changing its capitalization.
+         
+         Capitalize: Converts the first character of each word, according to CSS word-boundary rules, to uppercase.
+         
+         Uppercase: Converts all letters to uppercase.
+         
+         Lowercase: Converts all letters to lowercase.
+
+--> FLOAT PROPERTY :
+
+      The float property is used to position an element on the left or right side of its containing block. The surrounding text and inline content can flow around the floated element.
+      
+      Declaration:
+      
+      float: left;
+      float: right;
+      float: none;
+
+--> Values:
+
+      Left: Moves the element to the left side of its containing block. The surrounding content can flow around it.
+      
+      Right: Moves the element to the right side of its containing block. The surrounding content can flow around it.
+      
+      None: Prevents the element from floating. This is the default value.
+      
+      Note: The float property is commonly used to wrap text around images or other elements. Flexbox and Grid are generally preferred for creating modern webpage layouts.
+
+--> CLEAR PROPERTY :
+
+      The clear property is used to control the placement of an element in relation to floated elements. It prevents an element from appearing alongside floated elements on the specified side.
+      
+      Declaration:
+      
+      clear: left;
+      clear: right;
+      clear: both;
+      clear: none;
+
+ --> Values:
+   
+   Left: The element is moved below preceding left-floated elements when necessary.
+   
+   Right: The element is moved below preceding right-floated elements when necessary.
+   
+   Both: The element is moved below preceding left-floated and right-floated elements when necessary.
+   
+   None: Allows the element to appear alongside floated elements when normal layout rules permit it. This is the default value.
+   
+   Note: The clear property is mainly used with the float property to control the layout of elements.
