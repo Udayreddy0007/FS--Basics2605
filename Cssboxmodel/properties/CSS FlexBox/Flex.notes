@@ -1,0 +1,149 @@
+
+--> Date : 22/10/26 
+ 
+
+ --> FlexBox :   
+       
+        Flexbox (Flexible Box Layout) is a CSS layout model used to arrange elements in a row or column and control their alignment,
+        Spacing, and distribution.
+
+         Usage: Used to create flexible and responsive layouts for web pages.
+  
+   
+   Declaration : 
+     
+      display : flex ;
+
+
+--> Flex-container : 
+ 
+           A flex container is the parent element to which the display: flex property is applied. 
+           It controls the layout and alignment of its direct child elements(flex items).
+
+           Usage: Used to manage the positioning, spacing, and alignment of flex items.
+
+
+---> Main Axis :
+       
+       The main axis is the primary direction in which flex items are arranged inside a flex container. By default, it runs horizontally from left to right.
+
+      Usage: Used as the reference direction for arranging and distributing flex items.
+
+--->Cross Axis:
+         
+          The cross axis is perpendicular to the main axis. By default, it runs vertically from top to bottom.
+
+           Usage: Used as the reference direction for aligning flex items across the main axis.
+
+
+---> Properties that are declared only in the flex container 
+
+    -- Flex-direction : It is used defines the direction of the flex items in the flex container 
+
+        Values : 
+           
+            row – Arranges items horizontally from left to right. (Default value)
+            row-reverse – Arranges items horizontally from right to left.
+            column – Arranges items vertically from top to bottom.
+            column-reverse – Arranges items vertically from bottom to top.
+
+   -- justify-content :  justify-content property defines how flex items are distributed along the main axis of a flex container.
+
+        Usage: Used to control the horizontal distribution of items in the default row direction.
+           
+      Values :
+           
+            flex-start – Aligns items at the beginning of the main axis. (Default value)
+            flex-end – Aligns items at the end of the main axis.
+            center – Aligns items at the center of the main axis.
+            space-between – Places equal space between items, with no extra space at the beginning or end.
+            space-around – Places equal space around each item.
+            space-evenly – Distributes equal space between items and at both ends.
+
+    -- flex-wrap : The flex-wrap property specifies whether flex items should remain on a single line or move onto multiple lines when there is insufficient space in the flex container.
+                 
+             Values :
+                 
+                  nowrap – Keeps all flex items on a single line. (Default value)
+                  wrap – Allows flex items to move onto multiple lines when there is insufficient space.
+                  wrap-reverse – Allows flex items to move onto multiple lines in the reverse cross-axis direction.
+
+    -- align-items: The align-items property controls the alignment of flex items along the cross axis of a flex container.
+
+                Values :   
+                 
+                   stretch – Stretches items to fill the available space along the cross axis, if their size is not otherwise constrained. (Default value)
+                   flex-start – Aligns items at the beginning of the cross axis.
+                   flex-end – Aligns items at the end of the cross axis.
+                   center – Aligns items at the center of the cross axis.
+                   baseline – Aligns items according to the baseline of their text.
+
+
+
+----> Properties that are decalred inside the flex-items 
+ 
+  -- Order:  The order property specifies the order in which flex items are displayed inside a flex container.
+
+                Usage: Used to change the visual order of flex items without changing their original order in the HTML document.
+  
+     Values :
+          
+           0 – Default value. Items appear in their original order relative to other items with the same order value.
+           Positive integers – Place items later than items with lower order values.
+           Negative integers – Place items earlier than items with higher order values.
+
+    
+    -- align - self : The align-self property specifies the alignment of an individual flex item along the cross axis, overriding the alignment set by the parent container's align-items property.
+
+            Usage: Used to align a specific flex item differently from the other items in the same flex container.
+
+        Values:
+           
+            auto – Uses the alignment value defined by the parent container's align-items property. (Default value)
+            flex-start – Aligns the item at the beginning of the cross axis.
+            flex-end – Aligns the item at the end of the cross axis.
+            center – Aligns the item at the center of the cross axis.
+            baseline – Aligns the item according to the baseline of its text.
+            stretch – Stretches the item to fill the available space along the cross axis, if its size is not otherwise constrained.
+                   
+
+     -- align - content : The align-content property controls the spacing and alignment of multiple flex lines along the cross axis of a flex container.
+
+                Usage: Used to distribute and align multiple rows or columns of flex items when the container has extra space along the cross axis. It works when flex items wrap onto multiple lines.
+
+     Values:
+      
+       normal – Uses the default alignment behavior.
+       flex-start – Packs flex lines at the beginning of the cross axis.
+       flex-end – Packs flex lines at the end of the cross axis.
+       center – Packs flex lines at the center of the cross axis.
+       space-between – Distributes equal space between flex lines.
+       space-around – Distributes space around flex lines.
+       space-evenly – Distributes equal space between flex lines and at both ends.
+       stretch – Stretches flex lines to fill the available space. (Default behavior)
+       start – Aligns flex lines at the beginning of the container's cross-axis direction.
+       end – Aligns flex lines at the end of the container's cross-axis direction.
+
+
+
+       -- flex-grow : The flex-grow property specifies how much a flex item can grow relative to other flex items when extra space is available inside the flex container.
+
+             Usage: Used to distribute the available extra space among flex items according to their growth factors.
+
+         Values:
+          
+          0 – The item does not grow to occupy extra space. (Default value)
+          1 – The item can grow and receive a share of the available extra space.
+          Positive numbers such as 2, 3, or 4 – Specify the relative growth factor of the item.
+
+
+
+     -- flex-shrink : The flex-shrink property specifies how much a flex item can shrink relative to other flex items when there is insufficient space in the flex container.
+
+               Usage: Used to control how flex items reduce their size when the total size of the items exceeds the available space.
+
+        Values:
+          
+            0 – The item does not shrink when space is insufficient.
+            1 – The item can shrink proportionally to its shrink factor. (Default value)
+            Positive numbers such as 2, 3, or 4 – Specify the relative shrinking factor of the item. 

@@ -411,7 +411,22 @@ CSS :  Cascading stylesheet
     --> NOTE:  Created a properties folder inside that i have uploaded the notes 
            as well as the code that we discussed in today's class please refer.....
 
+
+  ----> Date : 22/10/26
+
+
+   ---> CSS FlexBox :   
      
+         ---> Aim is to provide a better a layout and spacing around the items 
+
+           display : flex -- to define the container as flex 
+
+           Flex-container , flex-items - properties 
+
+     ---> For notes refer CSS FLEX BOX floder -- flexnotes.txt(Notes has been updated)
+
+
+
 
 
 
