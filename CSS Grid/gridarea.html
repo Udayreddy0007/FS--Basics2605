@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .container{
+            display:grid;
+            border:2px solid black;
+            grid-template-rows:repeat(3,50px);
+            grid-template-columns: repeat(2,1fr);
+            /* grid-template-areas: "dashboards" "dashboards"
+                                     "aside" "main" ; */
+        }
+        .dashboards{
+            /* grid-area: dashboards; */
+              background-color: rgb(33, 33, 82);
+              color:whitesmoke;
+              grid-column: 1/3;
+            text-align: center;
+            /* margin-top:10px; */
+        }
+    </style>
+
+
+
+<!-- Complete the asignment create a dashboard using the grid layout -->
+
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="dashboards">Dashboards</div>
+        
+  
+           <div class="aside">
+            <aside >Main menu</aside>
+           </div>
+            
+    
+  <div class="main">
+       
+            <main>
+                <div class="item1">Lorem ipsum dolor sit.</div>
+                <div class="item2">Lorem ipsum dolor sit.</div>
+            </main>
+        </div>
+
+        <fotter>@copyright security information</fotter>
+
+    </div>
+
+
+
+</body>
+
+</html>

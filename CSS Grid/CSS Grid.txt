@@ -74,9 +74,29 @@
                  row-gap : 1px ;
 
  
-   
 
+         ---> Grid-area -
+                         The grid-template-areas property allows us to define a grid layout by assigning names to different sections. Grid items are placed into the named areas using the grid-area property.
 
+                          It is useful for creating layouts with a header, sidebar, main content, and footer.
+
+             
+             decalration : 
+              
+              grid-template-area : "areanames" ;
+              
+              Remember this rule
+          
+           - Repeated horizontally — the named area spans multiple columns.
+              
+              grid-template-area : "header" "header"  -- two columns area it's gonna occcupy
+                                    "main" "footer" ;
+           - Repeated vertically — the named area spans multiple rows. 
+               
+               grid-template-area :"header" "main"  -- two row area it's gonna occcupy
+                                  "header" "footer";
+           
+           - grid-area: name — assigns the element to that named area.
 
 
 ---> These are the  properities decalred inside the grid items  
@@ -144,7 +164,15 @@
                      grid-column-end: end;
 
              Common values : 
-                1,2,3...c:\Users\udays\OneDrive\Pictures\Screenshots\Screenshot 2026-10-26 092129.png
+                1,2,3...c:
 
+      -- grid-area : 
+          
+          The grid-area property assigns an item to a named area defined by grid-template-areas. 
+          It can also specify row and column start and end lines.
+
+          declaration : 
+             
+             grid-area : area name ;
 
                   

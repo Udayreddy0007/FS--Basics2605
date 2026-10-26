@@ -427,6 +427,19 @@ CSS :  Cascading stylesheet
 
 
 
+     ---> CSS Grid Layout 
+           properities  notes has been updated refer - css grid folder 
+            cssgrid .txt file --23/10/26 
+
+
+  --> Date : 26/10/26 
+     
+       --- grid area property  -- assignment dashboards creation using the grid layout 
+           
+           note updated  refer css grid.txt -- 26/10/26
+
+
+
 
 
 
