@@ -1,0 +1,150 @@
+
+
+---> Date : 23/10/26
+
+---> CSS Grid : 
+    
+       --- Css grid provides a two dimensional layout for our web page 
+            in the form of rows and columns 
+            it is most used while creating the dashboards , gallery , profile cards 
+
+       declaration : 
+         
+         it is defined inside the parent element grid container  it will control the direct child elements layout  / grid items as well
+
+         display:grid;
+
+
+---> These properties  are decalred only inside the parent element  
+
+          ---> grid-template-columns : it defines the columns on the parent element and their's width 
+
+              declaration : 
+               
+                  grid-template-columns : 100px 100px 100px   -- (3columns with 100px fixed width)
+
+                     values  : 
+                        
+                        fraction -- 1fr(50% of the container Width)
+                        
+                        1fr 1fr -- (2 columns with flexiable width)
+
+                        auto auto --(2 columns auto Width)
+
+                        repeat(no of columns , the amount of width)
+                        repeat(4,1fr)--(4columns , flexiable width)
+
+            --->  grid-template-row : it defines the rows on the parent element and their's heights
+
+
+
+            declaration : 
+                            
+                            grid-template-rows : 100px 100px 100px  -- 3 rows with 100px of fixed heights
+
+            Values : 
+
+            fraction -- 1fr(50% of the container height)
+                        
+                        1fr 1fr -- (2 rows with flexiable height)
+
+                        auto auto --(2 rows auto height)
+
+                        repeat(no of rows, the amount of height)
+                        repeat(4,1fr)--(4rows , flexiable height)
+             
+        
+        ---> gaps -- it adds the spaces between columns and rows 
+                       gap shortand property
+
+                decalration : 
+                 
+                  gap : 1px ;
+
+           -- column-gap - adds the spaces between the columns 
+           
+               decalration : 
+                    
+                     column-gap : 1px ;
+            
+            -- Row-gap - adds the spaces between the rows  
+             
+                decalration : 
+                 
+                 row-gap : 1px ;
+
+ 
+   
+
+
+
+
+---> These are the  properities decalred inside the grid items  
+  
+
+    -- grid-row : The grid-row property specifies which grid row lines an item starts and ends at.
+                   It can make an item span multiple rows.
+
+
+          decalration : 
+         
+            grid-row: start / end;
+
+
+            Common values:
+               - 1 / 2 – Places the item in the first row track.
+               - 1 / 3 – Makes the item span two row tracks.
+               - 2 / 4 – Places the item across the second and third row tracks.
+
+    -- grid-column : The grid-column property specifies which grid column lines an item starts and ends at. 
+                       It can also be used to make an item span multiple columns. 
+
+
+           decalration : 
+              
+              grid-column : start / end;
+       
+          Common values:
+           - 1 / 2 – Places the item between column lines 1 and 2.
+           - 1 / 3 – Makes the item span two column tracks.
+           - 1 / -1 – Makes the item span from the first grid line to the last grid line.
+
+    
+    
+    -- grid - row - start : The grid-row-start property specifies which grid row lines an item starts
+
+      declaration : 
+                     grid-row-start: start;
+
+          Common values : 
+                1,2,3...
+                       
+    -- grid - row -ends : The grid-row-ends property specifies which grid row lines an item ends
+
+          declaration : 
+         
+                     grid-row-end: end;
+             
+          Common values : 
+                1,2,3...
+                     
+   
+    -- grid - column - start : The grid-column-start property specifies which grid columns lines an item starts
+
+
+         declaration : 
+                     grid-column-start: start;
+
+           Common values : 
+                1,2,3...
+    
+    -- grid - column - end : The grid-column-end property specifies which grid column lines an item ends
+
+           declaration : 
+                     grid-column-end: end;
+
+             Common values : 
+                1,2,3...c:\Users\udays\OneDrive\Pictures\Screenshots\Screenshot 2026-10-26 092129.png
+
+
+                  
