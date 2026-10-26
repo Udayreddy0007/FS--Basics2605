@@ -89,12 +89,12 @@
           
            - Repeated horizontally — the named area spans multiple columns.
               
-              grid-template-area : "header" "header"  -- two columns area it's gonna occcupy
-                                    "main" "footer" ;
+              grid-template-area : "header header"  -- two columns area it's gonna occcupy
+                                    "main footer" ;
            - Repeated vertically — the named area spans multiple rows. 
                
-               grid-template-area :"header" "main"  -- two row area it's gonna occcupy
-                                  "header" "footer";
+               grid-template-area :"header main"  -- two row area it's gonna occcupy
+                                  "header footer";
            
            - grid-area: name — assigns the element to that named area.
 
