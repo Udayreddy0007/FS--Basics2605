@@ -1,0 +1,33 @@
+
+
+---> Date - 27/10/26
+
+  -- Typography : which defines the apperance and text styles , line spacing on the web pages 
+   
+      -- Font-family 
+       -- Font-size 
+       -- Font-Weight   -- refer css txt file
+       --line-spacing  -- which adds the horizental space between  the each element lines
+
+             line-height : none , 2em , 2rem , px , 100%;
+      
+      --character- spacing   -- which is used to add the spaces between the each character / letter 
+        
+        letter-spacing : none , positive px value , negative px values 
+
+
+      -- Border  -- it adds the border  around the element
+          
+          border shorthand property : width style color ;
+            
+            
+      -- Border radius  -- which  add the curve edges to an element border 
+         
+         border-radius : 2px ,5px ,50%(it will convert into a cirlce)
+
+      -- box-shadow -- if you want to add the shadow to your box use this property 
+                      adds the shadow controls its position horizentally (by horizental offset)
+                      and controls the vertical position of the shadow (by vertical offset)
+                      adding the blur to the shadow by (blur radius)
+                      controlling the smoothness of the shadow(contraction radius)
+                    define the color of the shadow using shadow-color

@@ -1,0 +1,8 @@
+
+
+---> Date : 27/10/26
+
+  -- pseudo class : which specifies the special state of an element
+
+    .selectorname : hover , first-child , last-child ,visited ,active , nth-child , link 
+     

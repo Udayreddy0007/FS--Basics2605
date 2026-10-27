@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .anchor{
+            background-color: black;
+            color:white;
+        }
+        .anchor:hover{
+            background-color: greenyellow;
+            color:black;
+        }
+
+        .anchor:visited{
+            background-color: orange;
+            color:aliceblue;
+        }
+        .anchor:active{
+            background-color: black;
+            color:red;
+        }
+
+        /* ul li:first-child{
+            background-color:darkgray;
+            color:black;
+
+        }
+        ul li:last-child{
+            background-color: darkgrey;
+                  color:black;
+        } */
+
+        ul li:nth-child(2n+1){
+            background-color: darkorange;
+            color:black;
+        }
+
+        ::selection{
+            background-color: black;
+            color:yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>We Are learning the pseudo classes</h1>
+
+    <a class="anchor"  href="#">click here</a>
+    
+    <ul>
+        <li>Lorem ipsum dolor sit.
+        </li>
+          <li>Lorem ipsum dolor sit.
+        </li>
+          <li>Lorem ipsum dolor sit.
+        </li>
+          <li>Lorem ipsum dolor sit.
+        </li>
+          <li>Lorem ipsum dolor sit.
+        </li>
+          <li>Lorem ipsum dolor sit.
+        </li>
+
+    </ul>
+    
+</body>
+</html>
