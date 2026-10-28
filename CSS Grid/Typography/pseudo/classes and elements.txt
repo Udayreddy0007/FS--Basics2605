@@ -3,6 +3,23 @@
 ---> Date : 27/10/26
 
   -- pseudo class : which specifies the special state of an element
+     
+       declaration - :(single colon after the selector)
 
     .selectorname : hover , first-child , last-child ,visited ,active , nth-child , link 
+
+
+---> Date - 28/10/26
+
+  
+    -- Pseudo elements : which  defines the special part of an element we call it as pseudo element 
+     
+         
+         declaration - ::(double colon after the selector name)
+
+         ::first-letter
+         ::after
+         ::before 
+         ::first-line
+         ::selection
      

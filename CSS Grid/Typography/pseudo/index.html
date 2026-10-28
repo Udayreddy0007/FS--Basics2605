@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Classes</title>
     <style>
-        .anchor{
+        .anchor {
             background-color: black;
-            color:white;
-        }
-        .anchor:hover{
-            background-color: greenyellow;
-            color:black;
+            color: white;
         }
 
-        .anchor:visited{
-            background-color: orange;
-            color:aliceblue;
+        .anchor:hover {
+            background-color: greenyellow;
+            color: black;
         }
-        .anchor:active{
+
+        .anchor:visited {
+            background-color: orange;
+            color: aliceblue;
+        }
+
+        .anchor:active {
             background-color: black;
-            color:red;
+            color: red;
         }
 
         /* ul li:first-child{
@@ -33,39 +36,67 @@
                   color:black;
         } */
 
-        ul li:nth-child(2n+1){
+        /* ul li:nth-child(2n+1) {
             background-color: darkorange;
-            color:black;
+            color: black;
+        } */
+
+
+        ::selection {
+            background-color: black;
+            color: yellowgreen;
         }
 
-        ::selection{
-            background-color: black;
-            color:yellowgreen;
+          h1::first-letter{
+            font-size:50px;
+            color:red;
+
+          }
+          /* p::first-line{
+            color:rgb(209, 55, 209);
+            background-color: darkorange;
+          } */
+
+        ul li::before{
+            content: '★';
+            color:darkorange;
+            background-color:black;
+        }
+        ul li::after{
+            content:'➤';
+            color:black;
         }
 
     </style>
 </head>
+
 <body>
 
     <h1>We Are learning the pseudo classes</h1>
 
-    <a class="anchor"  href="#">click here</a>
-    
+    <a class="anchor" href="#">click here</a>
+
     <ul>
         <li>Lorem ipsum dolor sit.
         </li>
-          <li>Lorem ipsum dolor sit.
+        <li>Lorem ipsum dolor sit.
         </li>
-          <li>Lorem ipsum dolor sit.
+        <li>Lorem ipsum dolor sit.
         </li>
-          <li>Lorem ipsum dolor sit.
+        <li>Lorem ipsum dolor sit.
         </li>
-          <li>Lorem ipsum dolor sit.
+        <li>Lorem ipsum dolor sit.
         </li>
-          <li>Lorem ipsum dolor sit.
+        <li>Lorem ipsum dolor sit.
         </li>
 
     </ul>
-    
+
+    <h1>We are learning pesudo element</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia vel consequatur sint ratione minima neque
+        ipsum sapiente, officia dolor expedita quibusdam quisquam, assumenda architecto ea dolorem eaque suscipit nemo
+        similique magni corporis tempora animi repellendus tenetur. Eos molestiae ea quam cumque, natus hic!</p>
+
 </body>
+
 </html>
