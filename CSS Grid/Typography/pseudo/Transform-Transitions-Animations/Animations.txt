@@ -1,21 +1,26 @@
 
 
----> Date:28/10/26
+----> Date : 29/10/26 
 
-   --> Transform - which  will help the element to rotate , scale , skew, move 
-    
-      --> 2D Tranforms 
-            
-            Transform: translate(x,y)- moving 
-            Transform-orgin- set the  position of the element
-             rotate(0deg , 1deg) (0.5rotate)
-             skew(x,y);  -- degree values
-             scale(x,y); - px
-             Transform : scaleX  , skew y , skew x , scale y , translate x , translate y ;
+ 
+ ----> Animations : Changing the styles of an element  to the new styles  we call it as animation 
 
-      --> 3D Transforms : x , y , z 
+       @Keyframe AnimationName{
+        from{
+           
+           propertyname:value1;
+        }
+        to{
           
-           rotate x();
-           rotate y();
-           rotate z();
-          
+          propertyname: value2;
+        }
+       }
+
+
+       Animation-Name :  name of the animation;
+       Animation-duration:sec;   -- How long the should run
+       Animation-timing-function:  -- How animation should run
+       Animation-delay:              -- How long the animation should stop running before it starts
+       Animation-iteration-count:        -- How many times animation should runs
+       Aniamtion-direction:              -- In which direction it should run
+      

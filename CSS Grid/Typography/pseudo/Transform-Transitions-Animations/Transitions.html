@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color:darkkhaki;
+        }
+         .box:hover{
+            width:5vw;
+        }
+        .box{
+            height:50vh;
+            width:50vh;
+            background-color: red;
+            transition-property: width;
+            transition-duration: 3s;
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: linear; */
+            /* transition-timing-function: step-end; */
+            /* transition-timing-function: step-start; */
+            /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+            /* transition-delay:3s; */
+    
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit.</div>
+    </div>
+</body>
+</html>

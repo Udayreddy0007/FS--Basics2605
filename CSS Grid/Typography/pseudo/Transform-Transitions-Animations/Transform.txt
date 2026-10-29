@@ -1,0 +1,21 @@
+
+
+---> Date:28/10/26
+
+   --> Transform - which  will help the element to rotate , scale , skew, move 
+    
+      --> 2D Tranforms 
+            
+            Transform: translate(x,y)- moving 
+            Transform-orgin- set the  position of the element
+             rotate(0deg , 1deg) (0.5rotate)
+             skew(x,y);  -- degree values
+             scale(x,y); - px
+             Transform : scaleX  , skew y , skew x , scale y , translate x , translate y ;
+
+      --> 3D Transforms : x , y , z 
+          
+           rotate x();
+           rotate y();
+           rotate z();
+          

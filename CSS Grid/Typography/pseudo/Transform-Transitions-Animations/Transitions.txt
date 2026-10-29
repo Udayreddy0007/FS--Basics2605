@@ -1,0 +1,13 @@
+
+
+---> Date : 29/10/26 
+
+
+   ---> Transition :  Applying the smoothy style over a duration on an element we call it as transitions 
+    
+        ---> Tranistion-name : propertyName ;
+         ---> Tranistion-duration - seconds -how long the transition runs 
+         ---> Transition-timing-function  - how the transition should run 
+         ---> Transition-delay - we can temporarly pause the transition  before it began
+
+         
