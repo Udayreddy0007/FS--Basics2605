@@ -1,0 +1,25 @@
+
+
+
+----> Date : 30/10/26v
+ 
+
+ --> media queries : Media queries are CSS techniques  that apply different styles for different devices based
+                     up on device width , device other characteristics and orientations
+
+    declaration : 
+      
+         @media (conditions){
+
+            selector{
+                property: values
+            }
+         }
+
+----> Z-indexing 
+
+     Z-index -- the element with the  greater z-index value will be appeared over the other element 
+
+         declaration : 
+            
+            z-index:1.....999;
