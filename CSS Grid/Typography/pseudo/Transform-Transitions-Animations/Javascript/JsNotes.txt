@@ -1,0 +1,64 @@
+
+
+
+----> Date : 02/11/26 
+ 
+   
+
+   ----> JS : is a interpreted language , light weight code which allows the developer to add functionality to
+               web page or to make a page interactive 
+
+
+         ---> JS can be written in two ways 
+
+           1. Internal JS :
+              
+               We will be declaring the js code inside the html element using script tags 
+                
+                declaration 
+
+                 <body>
+                   <script>
+
+                               // javascriptcode 
+
+                   </script>
+                   
+                </body>
+            
+                 
+
+           2. External JS : We create a separate js file to write the JS code  
+                 
+                 and later that file is linked with the html file
+                
+                Note :  the js file must  save / store with .js extenstion
+                  
+                  inside body
+
+                  <script src="filename.js"></script>
+
+    
+
+    ----> Features of JS
+     
+        -- Light weight code 
+         
+        -- Interpreted lang  
+
+        -- It's supports OOP's language -- JAVA 
+
+        -- Its Event Driven - mouse events , butteon events  
+
+        -- API's (featching and loading) 
+
+        -- platform independent -- Wind , linux , Mac IOS 
+
+        --- Client side language and server side language 
+         
+----> Note :  JS and Java both are not same java programming language  -- Mobile Application developement 
+           Js is programming language it run on engine (node.js) -- Web Developement 
+
+        
+
+  -----> What is Data  
