@@ -61,4 +61,150 @@
 
         
 
-  -----> What is Data  
+
+
+----> Date : 3/11/26
+
+  -----> What is Data  : A piece of information is called as data
+
+          ex : 
+               Name : Ravi ;
+               age : 25;
+               email : ravi@gmail.com
+
+
+       ----> DataTypes in JS 
+         
+         --- We have two types of data 
+           
+           1 . Primitive type :  
+              
+              -- String(depends Variable)  : The data which contains the letter , combination letter and number 
+
+                 -- that data must be declared in btw '' or ""
+
+                 ex :   Name:Uday;  
+                        Name :"Uday"; 
+               
+              -- Number(8Bytes- 64Bit) :   The int and decimals data is store
+                 
+                 note : 1 bit = 0 or 1 , 1 byte = 8 bits
+                  
+                  ex : age =12; --int 
+                       percentage = 98.99%; -- decimal 
+             
+              -- Boolean (True or false ) -- it is used in the conditional statements 
+   
+                     ex :  stdRegistration = true -- 1 
+                           examAttended = false -- 0 
+                    
+              -- BigInt  : If the data contains large int Number and if the number ends with n 
+                 
+                    ex :  
+                            population : 140345672n
+
+                      
+              -- Undefined : When the variable is decalred but not assigned with avalue 
+                
+                    ex : 
+                          age;
+              -- Null : Intentionallly we will be defining the variable as null 
+
+                  ex : 
+                         age = null; 
+
+              -- Symbol :  It make the unique identifier / Unique Value 
+               
+                   ex :  
+                         stdName = Symbol("ID1");
+                         stdName = Symbol("ID1");
+
+           2. Non - Primitive type :
+             
+             - Object -- Real world instance 
+                 
+                 ex : stdDetails
+
+             - Array  -- Collection of similar data 
+                
+                ex :  cities , states , fruits 
+             
+             - Functions --  Reusable block of code which does some action 
+                 
+             - Methods -- it does some actions
+
+
+
+-----> Variables in JS : 
+   
+        A container which stores different types of data  / a name which holds the different value we cal it
+         as variable name 
+           
+        
+        ex :  
+               name = "Ravi";
+
+               name -- variable  
+               variableValue is Ravi -- string Datatypes 
+
+      
+  -----> Rules to decalre a variable / variableName 
+   
+        1. A vaiable name can contains letter
+          
+          ex : name  , stdName 
+
+        2 . A variable  name consists of number as well as letter but not starts with number
+         
+           ex : 1stdname . std1name , stdName1
+
+        3. A variable name cannot contains spaces 
+           
+           ex :  std Name , stdN_me , std!name 
+
+        4. A variable name can consists of _ , $ 
+          
+          ex : stdname_ , std$Name 
+
+        5. A variable name can starts with _ as well $ 
+           
+           ex : 
+              _stdname , $stdname
+        
+        6. A predefined names and special symbols are not considered as variable name 
+            except ( _ and $) 
+
+            ex : 
+              
+              if , count , else if , function, for , while
+
+        7. JS is a case sensitive language  there is different btw Uppercase and Lower case 
+          
+           ex :   name , Name 
+      
+
+        8 . For  the naming convention of variable in Js follows camelCase 
+         
+           camelCase - stdName  --- JS use this method
+           snakecase  - std_Name
+           pascalcase - StdName
+           capitalcase - STDNAME
+
+
+  ----> Variable Keyword in JS 
+     
+      There are 3 types of keyword 
+
+      --- General Syntax of defining the  data 
+       
+             variablekeyword  variableName = value ;
+               console.log(variableName);
+       
+      1. Let   -- it's a block scope vaiable keyword . which is decalred once 
+                   and value can be reassigned , reupdated
+
+      2 .Const -- it is also a block scope variable but which is decalred and reassigned only Once
+
+      3 .Var -- it is a global scope variable which is redecalred and reupdated but it's traditional keyword 
+             
+                
