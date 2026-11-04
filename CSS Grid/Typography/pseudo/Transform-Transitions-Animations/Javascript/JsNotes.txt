@@ -206,5 +206,68 @@
       2 .Const -- it is also a block scope variable but which is decalred and reassigned only Once
 
       3 .Var -- it is a global scope variable which is redecalred and reupdated but it's traditional keyword 
+
+   
+
+ --->Date :  4/11/26
+
+   ----> Type coerince and Type Casting  
+    
+       
+        ---> Type coerince : Converting the type of the data from one tyype to another type 
+                             
+                             without any developer involvement 
+
+            
+              Number to string 
+              String to Number 
+              Boolean to String 
+              Boolean  to number 
+
+
+   ----> Type Casting :  Converting the data from one data type to another data type  by developer using some 
+                        methods 
+
+            String() , Number() , Boolean().
+
+      
+
+   ---> Operators in JavaScript :
+     
+     --- Operation , Calculations performed inside the program 
+
+
+    -- Operators : The symbol which is decalred in btw two operands(variable) we call it as operator
+
+       ex :  + , - , < , == , === , =
+    
+    -- Operands : The variable decalred before the operator and after operator we call it as operands
+
+        ex  : 
+             a + b -- a , b are operands and + is operators 
+
+
+  
+  ----> Types of operators
+
+    1.Arithematic Operator  : (+ , - , * , ** , / , % , ++ , --) : 
+
+    2.Assignment Operator / Compound Assignment  Operator 
+
+    (+= , -=, *=, /= , %= , **= )
+
+    3. Logical operator 
+
+    4. Bitwise Operator 
+ 
+    5. Ternory Operator 
+
+    6. Unary Operator  
+
+    7. Comparision Operator  
+
+
+
+
              
                 
