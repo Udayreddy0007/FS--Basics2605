@@ -256,15 +256,50 @@
 
     (+= , -=, *=, /= , %= , **= )
 
-    3. Logical operator 
+    3. Logical operator :  are used to check the conditions 
+      
+        ( &&(AND) , ||(OR) , !(NOT) or /) : 
 
-    4. Bitwise Operator 
+        &&  : When the both conditions are true the output is true  
+      
+        || : Atleast one condition must be true 
+
+         ! :  If the condition is true  we get opposite value (False)
+         
+
+    4. Bitwise Operator  : The operators converts the  number into a bit number 
+     
+         & -- Bitwise AND     ---- 0 0 -- 0 , 1  0 -- 0 , 1 1 -- 1
+         | -- Bitwise OR 
+         ^ -- Bitwise XOR 
+         ~ -- Bitwise NOT
  
-    5. Ternory Operator 
+    5. Ternory Operator  : condition ? "true" : "default" ;
 
-    6. Unary Operator  
+    6. Unary Operator  : Performing the action on one variable;
 
-    7. Comparision Operator  
+    7. Comparision Operator : The operators are used to compare the values 
+    (< , > , <= , >=)
+     
+      ==  : Comapring the values of the variables  
+        
+
+
+      === : exact Comparision which compares the datatype of the values
+
+      != : check the values that are not equals
+
+      !== : check the values that are not equal data type
+
+
+
+      8.Null Coealising Operator : when the value is null or undefined we will be using this operator 
+          
+          symbol(??)
+
+
+      
+
 
 
 
