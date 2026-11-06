@@ -91,13 +91,13 @@
 //    result= a == b;|
     //   result= a === b;
     //    result= a !== b;
-    let a= 10;
-    b=20;
-    result = a<b;
-   console.log(result); //true
+//     let a= 10;
+//     b=20;
+//     result = a<b;
+//    console.log(result); //true
 
    // Null coaelising operator 
     
-  let name=null;
-  result = name??"Name is not defined";
-  console.log(result);
+//   let name=null;
+//   result = name??"Name is not defined";
+//   console.log(result);
