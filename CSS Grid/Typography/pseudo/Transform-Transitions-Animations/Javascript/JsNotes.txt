@@ -430,7 +430,91 @@
 
 
 
+-----> Date : 9/11/26
 
 
+   ----> Looping control statements  / Iterative control statements: 
+       
+
+       ---  Iterating a statement multiple times  until the stop condition  matchs 
+        
+
+    1 . For loop :    Loop execute with initial condition and iterate until the stop condition 
+      
+            syntax :  
+                       
+                        for(variable keyword i=0; i<=10; i++){
+
+                          // output statement 
+                        }
+                     
+         
+
+    2. While Loop  : It checks the condition then only statement is executed 
+
+         Syntax :   
+
+                        let i = 0 ; 
+
+                        while(i<=10){
+
+                          console.log();
+                          i++;
+                        } 
+
+
+    3 . Do-while loop : At least execute the  statement once and then check the condition 
+       
+           
+           Syntax :   
+                    
+                     let i = 0;
+                       do{
+
+                        // statement  
+                          i++;
+                       }while(i<=10);
+
+  
+  4 . break statement  :  It is used to terminate the loop immediately when a specified condition is satisified
+      
+      break is a keyword used to terminate the loop
+         
+         let a = 1 ;
+         for(a=1; a<=10; a++){
+          console.log(a);
+          if(a==5){
+            break;
+          }
+         }
+
+
+  5. continue statement : The statement is used to skip the conditions 
+     
+        continue is used to skip the iteration
+
+
+        let a= 1;
+        for(let a=1 ; a<=10; a++){
+
+          console.log(a);
+          if(a==5){
+            continue;
+          }
+        }
+
+
+
+
+-----> Functions  :   Is a block reusable code decalred and called  multiple times when ever it is required 
+
+         Syntax:  
+               
+               function functionName (){
+                       
+                       // statement;
+
+               }
+               functionName();
              
                 
