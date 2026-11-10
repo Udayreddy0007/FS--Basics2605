@@ -516,5 +516,51 @@
 
                }
                functionName();
+
+--- Date :  10/11/26
+
+----> Default function :  a function is created  with a parameter and a value is 
+          assigned to it 
+
+          syntax : 
+              
+               function functioName(paramter=value){
+
+                 return parameter ;
+               }
+               functionName();
+
+ 
+ -----> Functions with parameters : We decalre only parameters and while exectuing 
+            the function we pass arguments  back to the function it returns  
+              some values 
+
+
+        syntax :
+            
+              function functionName(param1 , param2 , param3){
+          
+                     return param1 ;
+
+              }
+              functionName (arg1 , arg2 , arg3);
+
+
+------> Scopes in function :  How a varible can accessed through the function decalred in the 
+                              JS Programm
+
+
+  1 . global scope : let , var , const a variable can be decalred  outside the function 
+                        and can be called from any where in the code 
+
+
+
+   2 . Block scope : the variable is decalred inside the function block and then called 
+
+   3 . function scope :  the vaiable are decalred in side the function only
+                    
+
+-----> Lexical Scope :  how an parent function(outer function variable ) can be 
+
+             accessed by inner function(child)  
              
-                
