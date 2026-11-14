@@ -94,12 +94,23 @@
 
 // Closure scope 
 
-function outer(){
-    let count =0; // last 4 number public access
-    function inner(){  /// complete number 
-        count++;
-        console.log(count);
-    }
-    inner();
-}
-outer();
+// function outer(){
+//     let count =0; // last 4 number public access
+//     function inner(){  /// complete number 
+//         count++;
+//         console.log(count);
+//     }
+//     inner();
+// }
+// outer();
+
+
+
+
+// Arrow function  
+
+
+//  const message=()=>{
+//     console.log("Hello how are you");
+
+//  };

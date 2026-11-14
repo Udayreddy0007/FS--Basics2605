@@ -564,3 +564,203 @@
 
              accessed by inner function(child)  
              
+
+
+----> Date : 13/11/26
+
+  ---- Different way of defining the functions 
+
+
+  1 . Regular Function  : The function is created using the function keyword  
+
+          ex :  
+                     function greeting(){
+                            
+                            console.log("Hello ! Welcome to JS Regular function is executed successfully");
+
+                     } 
+                     greeting();
+
+  2 . Arrow Function  : It's is a shortest way to write a function  
+                            by using  arrow symbol =>
+
+          syntax : 
+                        const greeting = () =>{
+
+                          console.log("Hello! Arrow function is executed sucesssfully");
+
+                        };
+                        greeeting();
+
+
+
+-----> What is a string  ? 
+
+  ---- String is a sequence of characters which help us to form text 
+    
+      Strings can  be group of characters , characters and Numbers  , letters 
+
+      Ways of declaring the string  
+
+      1 . using single quotes ('')
+
+      2 . using double quotes ("")
+
+      3. using backticks (``) 
+
+  ---- String Methods 
+    
+     1. length : we use this method to find the length of the string  
+     2. trim() : which removes the white spaces from the starting and ending 
+     3. slice(start , end) : pass the begging index and the end index based up on the index we get the 
+                                string that is located in btw the indexes 
+
+     4 . startWith("string") : used to check whether the string is starting with that particular character or not 
+
+     5 .endsWith("string") : used to check whether the string is ending with that particular character or note
+
+     6 . charAt() : used to access the character by passing the index value 
+     
+     7 . split() : used to convert the string into an array 
+
+     8 . Replace() : we can replace the string with new string
+
+     9 . indexOf() :  we can get the charater index by just passing that character 
+     
+     10 . contains () : which checks whether the string is present in the the original string or not 
+
+     11. toLowerCase () : is used to covert the string in to lower case 
+
+     12 . toUpperCase() : is used to convert the string in to upper case
+
+
+----> Template literators : 
+
+       Shortest way of declaring the string we can pass variables directly into the string avoid manual way of doing 
+        the things 
+
+
+  ---- ${``}--- String  interpolation symbol 
+
+
+
+----> Date : 14/11/26 
+    
+
+  ----> Array : Array is a special type of object which store multiple value under a single array variable 
+          
+          [] --- square bracket (defines array)
+
+
+          ---> There are two ways of decalring an array 
+
+
+          1. Using Array literals  : General way of decalring an array 
+                
+                            syntax :  arrayName = [val1 , val2 , val3];
+
+              Each value has some index which specify the array element in an array 
+             bascially  indexing start from 0   
+
+                                   
+          2 . Using Array Constructor  :  We use a constructor to create a array 
+
+               syntax  : 
+                   
+                       let  arrayName = new Array(val1 , val2 , val3);
+                       console.log(arrayName);
+
+
+------> Array indexing : 
+     
+        -- indexing refers to the position of an element inside an array 
+
+        -- JS array follow zero based indexing means the first element starts with the index 0 
+
+
+        ex : let numbers = [10,20,30,40,50];
+                             0  1  2  3  4 ------ indexs of elements
+             
+             console.log(numbers[3]);
+
+
+      ----> Acccessing the last element 
+           
+           we can use length property 
+
+
+           console.log(numbers[numbers.length-1]);
+
+
+------> Reading and Updating Arrays 
+
+     --- Reading Array elements : Reading means retrieving or accessing an existing element from an array 
+
+        let students = ["Sudheer","Uday","Aishwarya","Pranavi","Reddy"];
+
+         result = students[1];
+         console.log(result);
+
+
+        -- Updating an array : Changing an existing element in an array 
+
+            syntax : 
+                 
+                     arrayName[indexvalue] = newValue; 
+
+  
+
+  -----> For-Each loop : this loop gonna help us to execute function on each element inside an array 
+
+
+         syntax :  
+                    let arrayNames = [values];
+                    
+                    for( variableKeyword arrayName of arrayNames )
+                    {
+
+                                    
+                                    console.log(arrayName);
+
+                    }
+
+
+                    or using callback function 
+
+              
+              let arrayNames = [values];
+
+              arrayNames.forEach(function(arrayName){
+                
+                console.log(arrayName);
+
+              });
+
+
+
+---> Methods  in array 
+
+ -- push() : Adds element at the end
+
+ -- pop() : remove the element from the end
+
+ -- unshit() : Adds the element at the beginning 
+
+ -- shift() : remove the element from the beginning
+
+
+
+----> Nested array : A nested array is an array that contains another array as one of its element 
+       
+       ex :  
+            let students =[ ["Sudheer",11] ,["Pranavi", 10] , ["Aishwarya" , 9] ];
+                               0       1      0          1       0          1
+                              0                 1                   2
+                console.log(students[0]) ---  ["Sudheer",11] 
+                console.log(students[0][0]) -- sudheer 
+                console.log(students[0][1]) -- 11
+
+                    
+       
+
+
