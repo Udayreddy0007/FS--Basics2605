@@ -116,9 +116,125 @@
 
 
 
+    // array methods 
+
+    // 1. MAP 
+
+
+
+    // let numbers =[10,20,40,50,60,70];
+
+    // let result = numbers.map(function(num){
+
+    //   // let newArray = Array.method(function(value,index,array))
+
+    //   return num * 2;
+
+
+    // });
+    //     console.log(result);
 
 
 
 
+    // 2. Filter 
+
+     
+    // let newArray = Array.method(function(value,index,array))
+    // return condition
+
+    // let numbers =[10,20,40,50,60,70];
+
+    // let result = numbers.filter(function(num){
+
+           
+    //   return num > 25;
+
+
+    // });
+
+    // console.log(result);
+
+
+  // 3. Find 
+
+    
+  // let numbers =[10,20,40,50,60,70];
+
+  //   let result = numbers.find(function(num){
+
+           
+  //     return num > 25;
+
+
+  //   });
+
+  //   console.log(result);
+
+
+  //4.  Some 
+
+
+    
+  // let numbers =[10,20,40,50,60,70];
+
+  //   let result = numbers.some(function(num){
+
+           
+  //     return num > 25;
+
+
+  //   });
+
+  //   console.log(result);
   
 
+
+  // 5 . Every 
+
+    
+  // let numbers =[10,20,40,50,60,70];
+
+  //   let result = numbers.every((num)=>{
+
+           
+  //     return num > 25;
+
+
+  //   });
+
+  //   console.log(result);
+
+
+  // 6. Reduce
+
+
+    
+  // let numbers =[10,20,40,50,60,70];
+
+  //   let result = numbers.reduce(function(sum ,value ){
+      // arrayname = array.method(function(accumelator,  current value){
+
+      
+      // return sum + value;
+       //  return  acc + curr; // intial value + current value //
+
+    // },0);
+    // },intial value);
+    
+
+    // console.log(result);
+
+
+
+    // 7 . Sorting an array 
+
+    // let numbers = [20,40,14,3,10,70];
+
+    // let res = numbers.sort(function(a , b){
+
+    //   // return  a - b;
+    //    return b - a;
+
+    // });
+    // console.log(res);

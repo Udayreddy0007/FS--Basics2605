@@ -760,7 +760,55 @@
                 console.log(students[0][0]) -- sudheer 
                 console.log(students[0][1]) -- 11
 
-                    
+
+
+-----> Date :16/11/26
+
+  
+  ---> Array methods in JavaScript
+
+    
+    1. Map : Creating a new array by performing some operations on every element in the array 
+       
+
+    2. Filter : Creating a new array containing the element that satisifies the condition 
+
+    3. Find : Returing the first element which satisifies the condition
+    
+    4. Some  : Checks whether some element satifies the conditions  the output will be boolean value
+
+    5. Every : Checks whether every element satifies the conditions  the output will be boolean value
+   
+    6. reduce : reducing the array elements into a single result
+
+    7. sort : We can sort the elements inside an array from asending to decending(a -b) and  decending to 
+
+        asending(b-a)
+
+        a : the first element in an array being processed
+        b: the last element in an array being processed 
+
+
+      
+  
+  ----> Object in JS :  Obiect in JS stores multiple piece of information in a single variable (ObjectName) 
+
+      That information is of different data types 
+       
+          
+          Syntax :  
+             
+               let objectName = {
+                   
+                    property1: value1,
+                    property2: value2
+
+               }
+               console.log(objectName.property1);
+
+
+
+
        
 
 
