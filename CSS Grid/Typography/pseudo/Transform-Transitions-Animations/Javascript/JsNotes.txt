@@ -809,6 +809,80 @@
 
 
 
+-------> Date : 17/11/26
+
+  
+  --> There are 2 ways of accessing the object properities they are 
+
+     1 . Dot property : here we are using . operator to access the properties that are defined in the object 
+
+           ex : stdDetails.name
+
+      
+    2 . Square Brackets  : here we are using the [] to access the properties that are defined tinside the object 
        
+           Syntax : 
+             
+                objectName["propertyName"];
+                stdDetails["name"];
 
 
+    -----> Object method :  Action that is specified by a method 
+          when  afunction is defined inside an object that function is defined as a method 
+
+
+           syntax :
+
+                     variableKeyword   objectName =  {
+
+                         propertyName:value,
+                         
+                         methodName : function(){
+
+                          console.log(this.propertyName);
+                         }
+                     }
+                     objectName.methodName();
+
+
+---> this keyword :  refers to the objectName used to access the properties of object inside the method(function)
+
+
+
+---> Updating the properities and also deleting the properities
+
+
+
+    --> objectName.propertyName = "newValue"; --- for updating
+
+    --> delete objectName.propertyName;
+
+
+
+  ------> Nested Object  :   Basically a object inside an object we call it as a nested object   
+     
+                 
+            Syntax : 
+                
+                   objectName0 = {
+
+                    property0: value0,
+
+                    object1 ={
+                      property1 : value1,
+
+                    }
+                   }
+                 
+                 objectName0.object1.property1;
+                       
+
+
+-----> Object Destructuring  : extracting  the multiple properties and assigning it to a single variable(objectName)
+
+          by this we can directly access each property without passing the object name 
+
+
+  let {properties that are declared inside an object } = objectName;
+
+  console.log(property);
