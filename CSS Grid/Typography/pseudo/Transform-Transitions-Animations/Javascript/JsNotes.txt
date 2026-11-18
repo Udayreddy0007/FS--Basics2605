@@ -886,3 +886,46 @@
   let {properties that are declared inside an object } = objectName;
 
   console.log(property);
+
+
+---> Date : 18/11/26
+
+
+ 
+-----> Fundamental of DOM : Document object model it is a concept in js which allow to interact with HTML element 
+
+    
+    ---> It is programming interface  it is a object defined by JS(Document)  
+
+    -----> Document  : is the root of the HTML element 
+
+
+    ----> DOM will structure the HTML Page as a tree of objects(nodes) 
+
+      
+                          Document --- root
+                             | 
+                            html     --- root element
+                             | 
+                    head              Body   --- Nodes 
+                                        
+                                        |
+                     | 
+              Title       meta      h1    img       p   --- child nodes
+                                  element[0]
+            
+
+
+----------> getElementById  Is used to select the html  body node element and it retrives only one element 
+                 with unique ID
+
+      
+    -----> querySelector() --  It return HTML elements if the given css selectors matches within document 
+
+         -->We change the style of particular HTML element 
+         
+         ex :  
+                   #id , .class selector , h1 
+
+
+                  
