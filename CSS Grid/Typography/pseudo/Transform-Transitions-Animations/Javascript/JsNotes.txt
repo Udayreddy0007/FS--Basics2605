@@ -928,4 +928,96 @@
                    #id , .class selector , h1 
 
 
+
+
+------> Date : 19/11/26
+
+
+   
+   ----->DOM  is displaying the HTML page as a tree like structure by those properties we can modify , add and also
+            
+            apply styles for an HTML element Dynamically using JS
+
+
+      -----By  DOM Manipulation we can add  , update and apply different style to an HTML element without 
+              loading the HTML page 
+
+
+    -----> There few properties 
+
+      --- getElementById
+      --- textContent 
+      --- innerHTML 
+      --- classList -- add() , remove() , toggle() , contains()
+
+      --- append() , remove()   
+      --- style 
+      --- createElement() 
+
+
+ -----> Using DOM Manipulation 
+
+     --- To change the  content of HTML elements 
+       
+     --- To change CSS styles Dynamically 
+
+     --- To add new HTML element 
+
+     --- To respond to user Interactions 
+
+
+
+
+  -----> textContent : it is DOM property used to get or change the text content inside a HTML element 
+
+          --- it treats the  assigned content as plain text not HTMl 
+           
+
+   ---> It does not render back HTML content , it render back only  the html content 
+
+
+
+  ----> innerHTML : It is DOM property used to get or modify the HTML content inside an element 
+
+       unlike textContent , it understands and renders HTML tags 
+
+
+------> Difference BTW  textContent and innerHTML
+
+            text content:  
+               
+                 -- Handles Plain text   
+                 -- Does not render HTML tags 
+                 -- safest for displaying the untrusted text 
+                 -- converts into plain text only 
+            
+            innerHTML : 
+                
+                -- Handls only HTML content 
+                -- Renders HTML tags 
+                ---- Introduced for untrustued inputs 
+
+
+-----> classList : it is a DOM property  used to add , remove , toggle and check CSS classes of an HTML element 
+      
+      syntax : element.classList.method("className");
+      
+      
+      -- add() : Adds a css class to an element  
+
+        
+          element.classsList.add("className");
+
+     -- remove() : removes the css class from an HTML element if it is exists 
+
+        element.classList.remove(""className);
+
+    -- toggle() : if the class exists , it removes  , if the class does not exist , it adds it 
+      
+    -- contains : checks whether the class exist or not   
+
+
+
+--------> style :        
+
                   
