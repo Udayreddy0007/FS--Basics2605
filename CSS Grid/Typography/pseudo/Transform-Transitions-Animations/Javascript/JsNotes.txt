@@ -1018,6 +1018,66 @@
 
 
 
---------> style :        
+--------> style : Used to apply the style on an HTML element by using JS
 
-                  
+    the style properties with hypen converted to camelCase Convention 
+
+     syntax :  element.style.property = value;
+      
+     background-color -- backgroundColor
+
+
+------> Date : 20/11/26
+
+
+   -----> create Element : it is a DOM property used to create HTML elements inside the HTML file 
+         
+         Syntax :    element.createElement('TagName');
+ 
+    
+     Note : The created element by using JS is not directly added to the HTML page we need to append property
+
+    
+  ----> append() : it is DOM property used to add the created HTML element by using JS on the HTML page
+
+      Syntax: 
+        
+          parentElement.append('created element name');
+
+
+
+  ------> Nofication Keywords in java Script : 
+
+
+     alert : populating a alert message
+
+     confirm  : populate a warning message on the browser accept it or ignore it
+
+     prompt :  It will populate a dialog box with some user input field 
+
+
+
+
+-----> Event Handlers :  In JS Event Handlers used to handle the user interaction on the web page 
+ 
+    we use this event handlers to help user interaction and make the web pages interactive 
+
+
+     
+  1. click : When the User clicks any HTML element some event is occured 
+
+      syntax :  element.addEventListner('click',function(){
+
+        //code is executed
+      });  
+
+  2 . change  
+
+  3 . input  : When the user enters , removes from the HTML element a event is occured 
+
+     Syntax :  element.addEventListner('input',function(){
+
+        //code is executed
+      });  
+
+  4. submit
